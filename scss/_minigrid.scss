@@ -1,0 +1,15 @@
+.row{
+  @include clearfix;
+  .col{
+    float: left;
+    min-height: 1px;
+    padding: 5px;
+
+  }
+
+  @for $i from 1 through 6{
+    .col#{$i}{
+      width: percentage($i / 6);
+    }
+  }
+}

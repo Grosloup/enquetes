@@ -23,8 +23,21 @@ include_once ROOT . DS . "templates/header.php";
                     <h2>Q1. Quelle était la date de votre visite au ZooParc de Beauval ? - SAISIR AU FORMAT JJ/MM <span class="arrow "><i class="fa fa-chevron-circle-up"></i></span></h2>
                 </div>
                 <div class="body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque consequatur deleniti
-                        distinctio, ex illo ipsa officiis quibusdam similique veritatis?</p>
+                    <div class="row">
+                        <div class="col col2"></div>
+                        <div class="col col2">
+                            <div class="field">
+                                <input type="text"/>
+                            </div>
+                        </div>
+                        <div class="col col2"></div>
+                        <div class="col col4"></div>
+                        <div class="col col2 text-right">
+                            <div class="field">
+                                <button>Suivant </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>

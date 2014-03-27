@@ -6,9 +6,11 @@
 
 @import "mixins";
 
+@import "minigrid";
+
 
 body{
-  background-color: #efefef;
+  background-color: #ededed;
   color: $typoBaseFontColor;
   font-size: $typoBaseFontSize;
   font-family: $typoBaseFontFamily;
@@ -41,6 +43,10 @@ body{
   }
 }
 
+.text-right{
+  text-align: right;
+}
+
 .container{
   width: 1024px;
   margin: 0 auto;
@@ -65,23 +71,30 @@ body{
 
 }
 #questions{
-  padding-top: 10px;
+  padding-top: 20px;
+
   .question{
+    @include box-shadow(rgba(0,0,0,0.1) 0 0 2px);
+    @include transition(all 0.2s);
+    //@include box-shadow(none);
     margin-bottom: 10px;
     &.opened{
+      @include box-shadow(rgba(0,0,0,0.5) 0 0 5px);
+      @include translateY(-3px);
+      @include box-shadow(lighten($bleu_427fed, 5%)0 3px 0, rgba(0,0,0,0.5) 0 0 5px);
+      .body{
 
+
+      }
     }
     &.closed{
       .arrow{
         @include rotateZ(180deg);
       }
-      .body{
-        //display: none;
-      }
+      .body{}
     }
     .head{
-      @include border-top-left-radius(5px);
-      @include border-top-right-radius(5px);
+
       background-color: lighten($bleu_427fed, 5%);
       h2{
         padding: 10px 25px 10px 10px;
@@ -90,7 +103,6 @@ body{
         color: #fff;
         font-weight: 700;
         font-size: 100%;
-
         .arrow{
           display: block;
           position: absolute;
@@ -108,12 +120,15 @@ body{
       }
     }
     .body{
+      background-color: #fff;
       border:{
         right: 1px solid lighten($bleu_427fed, 5%);
         bottom: 1px solid lighten($bleu_427fed, 5%);
         left: 1px solid lighten($bleu_427fed, 5%);
       }
       padding: 10px;
+
+
     }
   }
 }

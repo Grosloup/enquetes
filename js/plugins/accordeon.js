@@ -3,35 +3,58 @@
  */
 
 (function($){
+
+    var Accordeon = function(el, idx, questions, bodies){
+        this.$el = $(el);
+        this.idx = idx;
+        this.$body = $(".body", this.$el);
+        this.$head = $(".head", this.$el);
+        this.$questions = questions;
+        this.$bodies = bodies;
+        this.init();
+    };
+
+    Accordeon.prototype.init = function(){
+        var self = this;
+        if(this.idx !== 0){
+            this.$el.addClass("closed");
+            this.$body.slideUp(200);
+        } else {
+            this.$body.addClass("opened");
+        }
+        this.$head.on("click", function(e){
+            e.preventDefault();
+            if(self.$el.hasClass("opened")){
+                self.$el.removeClass("opened").addClass("closed");
+                self.$body.slideUp(200);
+            } else {
+                self.$questions.removeClass("opened").addClass("closed");
+                self.$bodies.slideUp(200);
+                self.$el.removeClass("closed").addClass("opened");
+                self.$body.slideDown(200);
+            }
+        });
+    };
+
     $.fn.accordeon = function(){
         return this.each(function(){
             var $el = $(this);
+
+
             var $questions = $(".question", $el);
-            var $heads = $(".head", $questions);
             var $bodies = $(".body", $questions);
-            $heads.each(function(idx, el){
+
+            $questions.each(function(idx){
                 var $this = $(this);
-                var $target = $this.next(".body");
-                var $parent = $this.parent();
-                if(idx !== 0){
-                    $parent.addClass("closed");
-                    $target.slideUp(200);
-                } else {
-                    $parent.addClass("opened");
+
+                var data = $this.data("accordeon");
+
+                if(!data){
+                    $this.data("accordeon", new Accordeon(this, idx, $questions, $bodies));
                 }
-                $this.on("click", function(e){
-                    e.preventDefault(200);
-                    if($parent.hasClass("opened")){
-                        $parent.removeClass("opened").addClass("closed");
-                        $target.slideUp(200);
-                    } else {
-                        $questions.removeClass("opened").addClass("closed");
-                        $bodies.slideUp(200);
-                        $parent.removeClass("closed").addClass("opened");
-                        $target.slideDown(200);
-                    }
-                });
-            })
+
+            });
+
         });
     }
 })(jQuery);

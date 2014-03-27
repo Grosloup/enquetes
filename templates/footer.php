@@ -10,7 +10,6 @@
 <script src="/js/plugins/accordeon.js"></script>
 <script>
     $(function(){
-
         $("#questions").accordeon();
     });
 </script>
