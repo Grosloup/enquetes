@@ -1,0 +1,17 @@
+/.idea/
+/.sass-cache/
+/config.rb
+/docs/
+
+
+/.bowerrc
+/bower.json
+/package.json
+/node_modules/
+/bower_components/
+
+/uploads/
+/fonts/
+/js/vendor/
+/css/
+/logs/
