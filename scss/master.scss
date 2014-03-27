@@ -28,7 +28,7 @@ body{
     top: 0;
     right: 0;
     left: 0;
-    @include box-shadow(rgba(0,0,0,0.2) 0 0 5px);
+    @include box-shadow(rgba(0,0,0,0.4) 0 1px 5px);
     a{
       color: $red_e94d20;
     }
@@ -41,7 +41,81 @@ body{
   }
 }
 
+.container{
+  width: 1024px;
+  margin: 0 auto;
+  @include clearfix;
+}
 
+#nav{
+  height: 60px;
+  background-color: $bleu_427fed;
+  color: #fff;
+  line-height: 60px;
+  @include box-shadow(rgba(0,0,0,0.4) 0 1px 5px);
+  .title{
+    float: left;
+    padding: 0 10px;
+    font-size: 140%;
+    font-weight: 700;
+  }
+}
 
+#main{
+
+}
+#questions{
+  padding-top: 10px;
+  .question{
+    margin-bottom: 10px;
+    &.opened{
+
+    }
+    &.closed{
+      .arrow{
+        @include rotateZ(180deg);
+      }
+      .body{
+        //display: none;
+      }
+    }
+    .head{
+      @include border-top-left-radius(5px);
+      @include border-top-right-radius(5px);
+      background-color: lighten($bleu_427fed, 5%);
+      h2{
+        padding: 10px 25px 10px 10px;
+        cursor: pointer;
+        position: relative;
+        color: #fff;
+        font-weight: 700;
+        font-size: 100%;
+
+        .arrow{
+          display: block;
+          position: absolute;
+          top: 15px;
+          right: 5px;
+          width: 25px;
+          height: 27px;
+          padding-top: 2px;
+          text-align: center;
+          line-height: 25px;
+          cursor: pointer;
+          @include transform-origin(50%,50%);
+          @include transition(all 0.2s);
+        }
+      }
+    }
+    .body{
+      border:{
+        right: 1px solid lighten($bleu_427fed, 5%);
+        bottom: 1px solid lighten($bleu_427fed, 5%);
+        left: 1px solid lighten($bleu_427fed, 5%);
+      }
+      padding: 10px;
+    }
+  }
+}
 
 

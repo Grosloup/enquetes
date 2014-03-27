@@ -6,5 +6,13 @@
  * Time: 19:22
  */
 ?>
+
+<script src="/js/plugins/accordeon.js"></script>
+<script>
+    $(function(){
+
+        $("#questions").accordeon();
+    });
+</script>
 </body>
 </html>

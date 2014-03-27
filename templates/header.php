@@ -45,3 +45,8 @@
     Vous utilisez une version d'internet explorer incompatible avec ce site. Mettez à jour internet explorer vers la version 11, ou utilisez des navigateurs tels que
     <a href="https://www.google.com/intl/fr/chrome/browser/">Google Chrome</a>, <a href="http://www.mozilla.org/en-US/firefox/all/">Firefox</a>,...
 </p>
+<div id="nav">
+    <div class="container">
+        <div class="title">ZooParc de Beauval - Saisie des enquêtes visiteurs</div>
+    </div>
+</div>
