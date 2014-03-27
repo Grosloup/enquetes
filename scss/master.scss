@@ -30,6 +30,7 @@ body{
     top: 0;
     right: 0;
     left: 0;
+    z-index: 10000;
     @include box-shadow(rgba(0,0,0,0.4) 0 1px 5px);
     a{
       color: $red_e94d20;
@@ -62,6 +63,7 @@ body{
   top: 0;
   right: 0;
   left: 0;
+  z-index: 1000;
   @include box-shadow(rgba(0,0,0,0.4) 0 1px 5px);
   .title{
     float: left;
@@ -131,7 +133,11 @@ body{
         left: 1px solid lighten($bleu_427fed, 5%);
       }
       padding: 10px;
-
+      h4{
+        padding: 5px;
+        background-color: #dedede;
+        margin-bottom: 5px;
+      }
 
     }
     .nextBtn, .prevBtn{
@@ -145,8 +151,9 @@ body{
       @include box-shadow(lighten(#a5a5a5, 5%)0 2px 0, rgba(0,0,0,0.3) 0 3px 5px);
       @include transition(all 0.2s);
       &.disabled{
-        border: 1px solid #ddd;
-        color: #999;
+        border: 1px solid #eee;
+        color: #bbb;
+        cursor: default;
         @include background(none);
         @include box-shadow(none);
         @include transition(none);
