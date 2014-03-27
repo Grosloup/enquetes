@@ -22,6 +22,14 @@ include_once ROOT . DS . "templates/header.php";
         <div id="questions">
 
 
+
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ####                          Question 1                                                       #### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
             <div class="question">
                 <div class="head">
                     <h2>Q1. Quelle était la date de votre visite au ZooParc de Beauval ? - SAISIR AU FORMAT JJ/MM <span class="arrow "><i class="fa fa-chevron-circle-up"></i></span></h2>
@@ -48,15 +56,13 @@ include_once ROOT . DS . "templates/header.php";
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ####                          Question 2 + pays                                                #### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
             <div class="question">
                 <div class="head">
                     <h2>Q2. Quel est le numéro de votre département d'habitation ? (100 pour Pays étranger) <span class="arrow "><i class="fa fa-chevron-circle-up"></i></span></h2>
@@ -100,13 +106,13 @@ include_once ROOT . DS . "templates/header.php";
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ####                          Question 3                                                       #### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
             <div class="question">
                 <div class="head">
                     <h2>Q3. Combien de temps avez-vous passé au ZooParc ? <span class="arrow "><i class="fa fa-chevron-circle-up"></i></span></h2>
@@ -135,17 +141,13 @@ include_once ROOT . DS . "templates/header.php";
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ####                          Question 4a                                                      #### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
             <div class="question">
                 <div class="head">
                     <h2>Q4a. Quel est le contexte de votre visite  : <span class="arrow "><i class="fa fa-chevron-circle-up"></i></span></h2>
@@ -174,12 +176,13 @@ include_once ROOT . DS . "templates/header.php";
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ####                          Question 4b et 4c                                                #### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
             <div class="question">
                 <div class="head">
                     <h2>Q4b et Q4c. Combien de temps dure votre séjour (si vous n'habitez pas ici) ? <span class="arrow "><i class="fa fa-chevron-circle-up"></i></span></h2>
@@ -246,15 +249,13 @@ include_once ROOT . DS . "templates/header.php";
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ####                          Question 5                                                       #### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
             <div class="question">
                 <div class="head">
                     <h2>Q5. Combien de temps a duré votre trajet jusqu'à Beauval ? <span class="arrow "><i class="fa fa-chevron-circle-up"></i></span></h2>
@@ -284,14 +285,13 @@ include_once ROOT . DS . "templates/header.php";
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ####                          Question 6a 6b et 6c                                             #### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
             <div class="question">
                 <div class="head">
                     <h2>Q6a et Q6b et Q6c. Personnellement, étiez vous déjà venu au ZooParc de Beauval ? <span class="arrow "><i class="fa fa-chevron-circle-up"></i></span></h2>
@@ -301,10 +301,10 @@ include_once ROOT . DS . "templates/header.php";
                         <div class="col col1"></div>
                         <div class="col col3">
                             <div class="field">
-                                <label for="q_5_a"><input type="radio" name="form[q_5]" id="q_5_a" value="Moins d'1 heure"/> Oui</label>
+                                <label for="q_6_a"><input type="radio" name="form[q_6]" id="q_6_a" value="Moins d'1 heure"/> Oui</label>
                             </div>
                             <div class="field">
-                                <label for="q_5_b"><input type="radio" name="form[q_5]" id="q_5_b" value="de 1 heure à 2 heures"/> non</label>
+                                <label for="q_6_b"><input type="radio" name="form[q_6]" id="q_6_b" value="de 1 heure à 2 heures"/> Non</label>
                             </div>
                         </div>
                         <div class="col col2"></div>
@@ -314,16 +314,16 @@ include_once ROOT . DS . "templates/header.php";
                         <div class="col col3">
                             <h4>(si oui) Q6b. Combien de fois êtes-vous déjà venu, en comptant la visite que vous venez d'effectuer ?</h4>
                             <div class="field">
-                                <label for="q_5_1_a"><input type="radio" name="form[q_5_1]" id="q_5_1_a" value="2 fois"/> 2 fois</label>
+                                <label for="q_6_1_a"><input type="radio" name="form[q_6_1]" id="q_6_1_a" value="2 fois"/> 2 fois</label>
                             </div>
                             <div class="field">
-                                <label for="q_5_1_b"><input type="radio" name="form[q_5_1]" id="q_5_1_b" value="3 fois"/> 3 fois"</label>
+                                <label for="q_6_1_b"><input type="radio" name="form[q_6_1]" id="q_6_1_b" value="3 fois"/> 3 fois"</label>
                             </div>
                             <div class="field">
-                                <label for="q_5_1_c"><input type="radio" name="form[q_5_1]" id="q_5_1_c" value="4 fois"/> 4 fois</label>
+                                <label for="q_6_1_c"><input type="radio" name="form[q_6_1]" id="q_6_1_c" value="4 fois"/> 4 fois</label>
                             </div>
                             <div class="field">
-                                <label for="q_5_1_d"><input type="radio" name="form[q_5_1]" id="q_5_1_d" value="5 fois ou plus"/> 5 fois ou plus</label>
+                                <label for="q_6_1_d"><input type="radio" name="form[q_6_1]" id="q_6_1_d" value="5 fois ou plus"/> 5 fois ou plus</label>
                             </div>
                         </div>
                         <div class="col col2"></div>
@@ -333,22 +333,22 @@ include_once ROOT . DS . "templates/header.php";
                         <div class="col col3">
                             <h4>(si oui) Q6c. Et à  quand remonte votre précédente visite du ZooParc de Beauval ?</h4>
                             <div class="field">
-                                <label for="q_5_2_a"><input type="radio" name="form[q_5_2]" id="q_5_2_a" value="Il y a moins de 1 an"/> Il y a moins de 1 an</label>
+                                <label for="q_6_2_a"><input type="radio" name="form[q_6_2]" id="q_6_2_a" value="Il y a moins de 1 an"/> Il y a moins de 1 an</label>
                             </div>
                             <div class="field">
-                                <label for="q_5_2_b"><input type="radio" name="form[q_5_2]" id="q_5_2_b" value="Il y a 1 an environ"/> Il y a 1 an environ</label>
+                                <label for="q_6_2_b"><input type="radio" name="form[q_6_2]" id="q_6_2_b" value="Il y a 1 an environ"/> Il y a 1 an environ</label>
                             </div>
                             <div class="field">
-                                <label for="q_5_2_c"><input type="radio" name="form[q_5_2]" id="q_5_2_c" value="Il y a 2 ans environ"/> Il y a 2 ans environ</label>
+                                <label for="q_6_2_c"><input type="radio" name="form[q_6_2]" id="q_6_2_c" value="Il y a 2 ans environ"/> Il y a 2 ans environ</label>
                             </div>
                             <div class="field">
-                                <label for="q_5_2_d"><input type="radio" name="form[q_5_2]" id="q_5_2_d" value="Il y a entre 3 et 5 ans"/> Il y a entre 3 et 5 ans</label>
+                                <label for="q_6_2_d"><input type="radio" name="form[q_6_2]" id="q_6_2_d" value="Il y a entre 3 et 5 ans"/> Il y a entre 3 et 5 ans</label>
                             </div>
                             <div class="field">
-                                <label for="q_5_2_e"><input type="radio" name="form[q_5_2]" id="q_5_2_e" value="Il y a plus de 5 ans"/> Il y a plus de 5 ans</label>
+                                <label for="q_6_2_e"><input type="radio" name="form[q_6_2]" id="q_6_2_e" value="Il y a plus de 5 ans"/> Il y a plus de 5 ans</label>
                             </div>
                             <div class="field">
-                                <label for="q_5_2_f"><input type="radio" name="form[q_5_2]" id="q_5_2_f" value="Je ne me souviens pas"/> Je ne me souviens pas</label>
+                                <label for="q_6_2_f"><input type="radio" name="form[q_6_2]" id="q_6_2_f" value="Je ne me souviens pas"/> Je ne me souviens pas</label>
                             </div>
                         </div>
                         <div class="col col2"></div>
@@ -362,45 +362,102 @@ include_once ROOT . DS . "templates/header.php";
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ####                          Question 7a et 7b                                                #### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
             <div class="question">
                 <div class="head">
-                    <h2> <span class="arrow "><i class="fa fa-chevron-circle-up"></i></span></h2>
+                    <h2>Q7a. Concernant votre visite d'aujourd'hui, vous êtes-vous décidé au dernier moment ou l'aviez-vous programmée à l'avance ? <span class="arrow "><i class="fa fa-chevron-circle-up"></i></span></h2>
                 </div>
                 <div class="body">
-
+                    <div class="row">
+                        <div class="col col1"></div>
+                        <div class="col col3">
+                            <div class="field">
+                                <label for="q_7_a"><input type="radio" name="form[q_7]" id="q_7_a" value="Visite décidée au plus 2-3 jours avant"/> Visite décidée au plus 2-3 jours avant</label>
+                            </div>
+                            <div class="field">
+                                <label for="q_7_b"><input type="radio" name="form[q_7]" id="q_7_b" value="Visite programmée à l'avance"/> Visite programmée à l'avance</label>
+                            </div>
+                        </div>
+                        <div class="col col2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col col1"></div>
+                        <div class="col col3">
+                            <h4>Q7b. Combien de semaines à l’avance ?</h4>
+                            <div class="field">
+                                <input type="text" name="form[q_7_1]" id="q_7_1" value=""/>
+                            </div>
+                        </div>
+                        <div class="col col2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col col4"></div>
+                        <div class="col col2 text-right">
+                            <button class="prevBtn"><i class="fa fa-hand-o-up"></i></button>
+                            <button class="nextBtn"><i class="fa fa-hand-o-down"></i></button>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ####                          Question 8a et 8b                                                #### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
             <div class="question">
                 <div class="head">
-                    <h2> <span class="arrow "><i class="fa fa-chevron-circle-up"></i></span></h2>
+                    <h2>Q8a. Saviez-vous avant de venir que le ZooParc de Beauval avait accueilli 2 pandas géants ? <span class="arrow "><i class="fa fa-chevron-circle-up"></i></span></h2>
                 </div>
                 <div class="body">
-
+                    <div class="row">
+                        <div class="col col1"></div>
+                        <div class="col col3">
+                            <div class="field">
+                                <label for="q_8_a"><input type="radio" name="form[q_8]" id="q_8_a" value="Moins d'1 heure"/> Oui</label>
+                            </div>
+                            <div class="field">
+                                <label for="q_8_b"><input type="radio" name="form[q_8]" id="q_8_b" value="de 1 heure à 2 heures"/> Non</label>
+                            </div>
+                        </div>
+                        <div class="col col2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col col1"></div>
+                        <div class="col col3">
+                            <h4>(si oui) Q8b. Cela a-t-il influencé votre décision de venir aujourd'hui ?</h4>
+                            <div class="field">
+                                <label for="q_8_1_a"><input type="radio" name="form[q_8_1]" id="q_8_1_a" value="Moins d'1 heure"/> Oui</label>
+                            </div>
+                            <div class="field">
+                                <label for="q_8_1_b"><input type="radio" name="form[q_8_1]" id="q_8_1_b" value="de 1 heure à 2 heures"/> Non</label>
+                            </div>
+                        </div>
+                        <div class="col col2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col col4"></div>
+                        <div class="col col2 text-right">
+                            <button class="prevBtn"><i class="fa fa-hand-o-up"></i></button>
+                            <button class="nextBtn"><i class="fa fa-hand-o-down"></i></button>
+                        </div>
+                    </div>
                 </div>
             </div>
-
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ####                          Question 9                                                       #### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
 
 
 
