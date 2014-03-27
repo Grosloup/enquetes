@@ -2,9 +2,46 @@
 
 @import "normalize";
 
+@import "vars";
+
 @import "mixins";
 
 
 body{
   background-color: #efefef;
+  color: $typoBaseFontColor;
+  font-size: $typoBaseFontSize;
+  font-family: $typoBaseFontFamily;
+  line-height: $typoBaseLineHeight;
+
+
+  .browserhappy{
+    display: none;
+    background-color: $orange_eca403;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px;
+    border: 1px solid #ec7c1a;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    @include box-shadow(rgba(0,0,0,0.2) 0 0 5px);
+    a{
+      color: $red_e94d20;
+    }
+  }
+
+  &.lt-ie9{
+    .browserhappy{
+      display: block;
+    }
+  }
 }
+
+
+
+
+

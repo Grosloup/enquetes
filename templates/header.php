@@ -18,6 +18,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title></title>
 
+    <link rel="stylesheet" href="/css/master.css"/>
+    <link rel="stylesheet" href="/css/font-awesome.min.css"/>
+
     <script src="/js/vendor/modernizr.js"></script>
     <script src="/js/vendor/jquery-2.1.0.min.js"></script>
 
