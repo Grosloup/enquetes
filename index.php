@@ -34,7 +34,8 @@ include_once ROOT . DS . "templates/header.php";
                         <div class="col col4"></div>
                         <div class="col col2 text-right">
                             <div class="field">
-                                <button>Suivant </button>
+                                <button class="prevBtn"><i class="fa fa-hand-o-up"></i></button>
+                                <button class="nextBtn"><i class="fa fa-hand-o-down"></i></button>
                             </div>
                         </div>
                     </div>
@@ -46,11 +47,22 @@ include_once ROOT . DS . "templates/header.php";
                     <h2>Q2. Quel est le numéro de votre département d'habitation ? (100 pour Pays étranger) <span class="arrow "><i class="fa fa-chevron-circle-up"></i></span></h2>
                 </div>
                 <div class="body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid animi asperiores
-                        aspernatur blanditiis consequatur consequuntur dignissimos esse expedita illo in ipsa ipsam
-                        laudantium magnam omnis placeat porro qui quis repellat, sint tempora temporibus ullam unde. At
-                        delectus deserunt, ea impedit ipsam labore laborum, natus officia placeat quas rem
-                        voluptatem!</p>
+                    <div class="row">
+                        <div class="col col2"></div>
+                        <div class="col col2">
+                            <div class="field">
+                                <input type="text"/>
+                            </div>
+                        </div>
+                        <div class="col col2"></div>
+                        <div class="col col4"></div>
+                        <div class="col col2 text-right">
+                            <div class="field">
+                                <button class="prevBtn"><i class="fa fa-hand-o-up"></i></button>
+                                <button class="nextBtn"><i class="fa fa-hand-o-down"></i></button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -59,14 +71,22 @@ include_once ROOT . DS . "templates/header.php";
                     <h2>Q3. Combien de temps avez-vous passé au ZooParc ? <span class="arrow "><i class="fa fa-chevron-circle-up"></i></span></h2>
                 </div>
                 <div class="body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, est perferendis? Cumque
-                        eveniet expedita, explicabo ipsum magni nisi nostrum quae quas repudiandae similique? Illum
-                        laboriosam nulla repudiandae. Adipisci amet asperiores consequuntur dolores ex facilis illum
-                        ipsam nam nulla numquam perferendis, qui rerum similique sint tempora totam veniam? Ad eveniet
-                        fuga in iure magni, molestiae porro praesentium similique? Asperiores cum ducimus illo incidunt
-                        nesciunt possimus provident soluta velit! Blanditiis debitis explicabo fugit, quas similique vel
-                        vitae. Assumenda cupiditate dolores eaque et fugit harum in ipsam itaque maiores maxime nam non
-                        officiis praesentium provident quis, rem repudiandae rerum sapiente sint veritatis vero?</p>
+                    <div class="row">
+                        <div class="col col2"></div>
+                        <div class="col col2">
+                            <div class="field">
+                                <input type="text"/>
+                            </div>
+                        </div>
+                        <div class="col col2"></div>
+                        <div class="col col4"></div>
+                        <div class="col col2 text-right">
+                            <div class="field">
+                                <button class="prevBtn"><i class="fa fa-hand-o-up"></i></button>
+                                <button class="nextBtn"><i class="fa fa-hand-o-down"></i></button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
