@@ -1,0 +1,72 @@
+@mixin clearfix(){
+  *zoom:1;
+  &:before, &:after{
+    display: table;
+    content: " ";
+  }
+  &:after{
+    clear: both;
+  }
+}
+
+@mixin display-inline-block(){
+  vertical-align: middle;
+  display: inline-block;
+}
+
+@mixin triangle($direction:right, $length: 5px, $width: 10px, $color:#000){
+  @if $direction == "top"{
+    border:{
+      top: none;
+      right:solid transparent $width/2;
+      bottom: solid $color $length;
+      left:solid transparent $width/2;
+    }
+  } @else if $direction == "bottom" {
+    border:{
+      top: solid $color $length;
+      right:solid transparent $width/2;
+      bottom: none;
+      left:solid transparent $width/2;
+    }
+  } @else if $direction == "left" {
+    border:{
+      top: solid transparent $width/2;
+      right:solid $color $length;
+      bottom: solid transparent $width/2;
+      left:none;
+    }
+  } @else {
+    border:{
+      top: solid transparent $width/2;
+      right:none;
+      bottom: solid transparent $width/2;
+      left:solid $color $length;
+    }
+  }
+}
+
+
+@mixin absolute($x:0,$y:0, $zIndex: 1){
+  position: absolute;
+  top: $y;
+  left: $x;
+  z-index: 1000000 + $zIndex;
+}
+
+
+@mixin fixed($x:0,$y:0, $zIndex: 1){
+  position: fixed;
+  top: $y;
+  left: $x;
+  z-index: 1000000 + $zIndex;
+}
+
+
+@mixin round($radius:5px){
+  @include border-radius($radius);
+}
+
+
+
+
