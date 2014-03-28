@@ -50,6 +50,8 @@ textarea { overflow: auto; vertical-align: top; }
 .row:before, .row:after { display: table; content: " "; }
 .row:after { clear: both; }
 .row .col { float: left; min-height: 1px; padding: 5px; }
+.row .col .row .col:first-child { padding-left: 0; }
+.row .col .row .col:last-child { padding-right: 0; }
 .row .col1 { width: 16.66667%; }
 .row .col2 { width: 33.33333%; }
 .row .col3 { width: 50%; }

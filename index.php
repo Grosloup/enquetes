@@ -458,7 +458,146 @@ include_once ROOT . DS . "templates/header.php";
             <!-- ####                                                                                           #### -->
             <!-- ################################################################################################### -->
             <!-- ################################################################################################### -->
+            <div class="question">
+                <div class="head">
+                    <h2>Q9. Quels sont tous les moyens qui vous ont permis d'entendre parler du ZooParc de Beauval et vous ont décidé à venir ? <span class="arrow"><i class="fa fa-chevron-circle-up"></i></span></h2>
+                </div>
+                <div class="body">
+                    <div class="row">
+                        <div class="col col5">
+                            <div class="field">
+                                <label for="q_9_a"><input type="checkbox" name="[q_9][]" id="q_9_a"/> Bouche à oreille (famille, amis, etc)</label>
+                            </div>
+                        </div>
+                        <div class="col col1"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col col5">
+                            <div class="field">
+                                <label for="q_9_b"><input type="checkbox" name="[q_9][]" id="q_9_b"/> Affichage publicitaire</label>
+                            </div>
+                            <div class="row">
+                                <div class="col col1"></div>
+                                <div class="col col5">
+                                    <h4>Quel types d'affichages ?</h4>
 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col1"></div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col col5">
+                            <div class="field">
+                                <label for="q_9_c"><input type="checkbox" name="[q_9][]" id="q_9_c"/> Publicité dans les médias</label>
+                            </div>
+                            <div class="row">
+                                <div class="col col1"></div>
+                                <div class="col col5">
+                                    <h4>Quel type de média ?</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col1"></div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col col5">
+                            <div class="field">
+                                <label for="q_9_d"><input type="checkbox" name="[q_9][]" id="q_9_d"/> Articles/émissions dans les médias</label>
+                            </div>
+                            <div class="row">
+                                <div class="col col1"></div>
+                                <div class="col col5">
+                                    <h4>Merci de préciser</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col1"></div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col col5">
+                            <div class="field">
+                                <label for="q_9_e"><input type="checkbox" name="[q_9][]" id="q_9_e"/> Prospectus</label>
+                            </div>
+                            <div class="row">
+                                <div class="col col1"></div>
+                                <div class="col col5">
+                                    <h4>Où avez-vous vu/obtenu ce(s) prospectus</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col1"></div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col col5">
+                            <div class="field">
+                                <label for="q_9_f"><input type="checkbox" name="[q_9][]" id="q_9_f"/> Promotion dans un supermarché</label>
+                            </div>
+                        </div>
+                        <div class="col col1"></div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col col5">
+                            <div class="field">
+                                <label for="q_9_g"><input type="checkbox" name="[q_9][]" id="q_9_g"/> Ecole de votre enfant</label>
+                            </div>
+                        </div>
+                        <div class="col col1"></div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col col5">
+                            <div class="field">
+                                <label for="q_9_h"><input type="checkbox" name="[q_9][]" id="q_9_h"/> Affichage/billets dans votre entreprise (CE)</label>
+                            </div>
+                        </div>
+                        <div class="col col1"></div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col col5">
+                            <div class="field">
+                                <label for="q_9_i"><input type="checkbox" name="[q_9][]" id="q_9_i"/> Guides touristiques</label>
+                            </div>
+                        </div>
+                        <div class="col col1"></div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col col5">
+                            <div class="field">
+                                <label for="q_9_j"><input type="checkbox" name="[q_9][]" id="q_9_j"/> Site web du ZooParc de Beauval</label>
+                            </div>
+                        </div>
+                        <div class="col col1"></div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col col5">
+                            <div class="field">
+                                <label for="q_9_k"><input type="checkbox" name="[q_9][]" id="q_9_k"/> Publicité sur un site internet</label>
+                            </div>
+                        </div>
+                        <div class="col col1"></div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col col4"></div>
+                        <div class="col col2 text-right">
+                            <button class="prevBtn"><i class="fa fa-hand-o-up"></i></button>
+                            <button class="nextBtn"><i class="fa fa-hand-o-down"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 

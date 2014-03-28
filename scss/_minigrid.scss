@@ -4,7 +4,16 @@
     float: left;
     min-height: 1px;
     padding: 5px;
-
+    .row{
+      .col{
+        &:first-child{
+          padding-left: 0;
+        }
+        &:last-child{
+          padding-right: 0;
+        }
+      }
+    }
   }
 
   @for $i from 1 through 6{
