@@ -371,7 +371,7 @@ include_once ROOT . DS . "templates/header.php";
             <!-- ################################################################################################### -->
             <div class="question">
                 <div class="head">
-                    <h2>Q7a. Concernant votre visite d'aujourd'hui, vous êtes-vous décidé au dernier moment ou l'aviez-vous programmée à l'avance ? <span class="arrow "><i class="fa fa-chevron-circle-up"></i></span></h2>
+                    <h2>Q7a et Q7b. Concernant votre visite d'aujourd'hui, vous êtes-vous décidé au dernier moment ou l'aviez-vous programmée à l'avance ? <span class="arrow "><i class="fa fa-chevron-circle-up"></i></span></h2>
                 </div>
                 <div class="body">
                     <div class="row">
@@ -414,7 +414,7 @@ include_once ROOT . DS . "templates/header.php";
             <!-- ################################################################################################### -->
             <div class="question">
                 <div class="head">
-                    <h2>Q8a. Saviez-vous avant de venir que le ZooParc de Beauval avait accueilli 2 pandas géants ? <span class="arrow "><i class="fa fa-chevron-circle-up"></i></span></h2>
+                    <h2>Q8a et Q8b. Saviez-vous avant de venir que le ZooParc de Beauval avait accueilli 2 pandas géants ? <span class="arrow "><i class="fa fa-chevron-circle-up"></i></span></h2>
                 </div>
                 <div class="body">
                     <div class="row">
@@ -598,11 +598,224 @@ include_once ROOT . DS . "templates/header.php";
                     </div>
                 </div>
             </div>
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ####                          Question 10                                                      #### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <div class="question">
+                <div class="head">
+                    <h2>Q10. Avant de venir au ZooParc de Beauval: </h2>
+                </div>
+                <div class="body">
+                    <div class="row">
+                        <div class="col col1"></div>
+                        <div class="col col3">
+                            <h4>Vous êtes-vous connecté à notre site www.zoobeauval.com ?</h4>
+                            <label for="q_10_a"><input type="radio" name="form[q_10]" id="q_10_a" value="oui"/> Oui</label>
+                            <label for="q_10_b"><input type="radio" name="form[q_10]" id="q_10_b" value="non"/> Non</label>
+                        </div>
+                        <div class="col col2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col col1"></div>
+                        <div class="col col3">
+                            <h4>Avez-vous téléphoné au ZooParc de Beauval pour obtenir des renseignements ?</h4>
+                            <label for="q_10_1_a"><input type="radio" name="form[q_10_1]" id="q_10_1_a" value="oui"/> Oui</label>
+                            <label for="q_10_1_b"><input type="radio" name="form[q_10_1]" id="q_10_1_b" value="non"/> Non</label>
+                        </div>
+                        <div class="col col2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col col4"></div>
+                        <div class="col col2 text-right">
+                            <button class="prevBtn"><i class="fa fa-hand-o-up"></i></button>
+                            <button class="nextBtn"><i class="fa fa-hand-o-down"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ####                          Question 11                                                      #### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <div class="question">
+                <div class="head">
+                    <h2>Q11. Globalement, en ce qui concerne la visite du ZooParc de Beauval, diriez-vous que vous avez :</h2>
+                </div>
+                <div class="body">
+                    <div class="row">
+                        <div class="col col1"></div>
+                        <div class="col col3">
+                            <div class="field">
+                                <label for="q_11_a"><input type="radio" name="form[q_11]" id="q_11_a" value="Beaucoup aimé"/> Beaucoup aimé</label>
+                            </div>
+                            <div class="field">
+                                <label for="q_11_b"><input type="radio" name="form[q_11]" id="q_11_b" value="Aimé"/> Aimé</label>
+                            </div>
+                            <div class="field">
+                                <label for="q_11_c"><input type="radio" name="form[q_11]" id="q_11_c" value="Peu aimé"/> Peu aimé</label>
+                            </div>
+                            <div class="field">
+                                <label for="q_11_d"><input type="radio" name="form[q_11]" id="q_11_d" value="Pas du tout aimé"/> Pas du tout aimé</label>
+                            </div>
+                        </div>
+                        <div class="col col2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col col4"></div>
+                        <div class="col col2 text-right">
+                            <button class="prevBtn"><i class="fa fa-hand-o-up"></i></button>
+                            <button class="nextBtn"><i class="fa fa-hand-o-down"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ####                          Question 12a 12b 12c                                             #### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <div class="question">
+                <div class="head">
+                    <h2>Q12a Q12b q12c. Vous êtes-vous arrêté dans un point de restauration ?</h2>
+                </div>
+                <div class="body">
+                    <div class="row">
+                        <div class="col col1"></div>
+                        <div class="col col3">
+                            <div class="field"><label for="q_12_a"><input type="radio" name="form[q_12]" id="q_12_a" value="Oui"/></label> Oui</div>
+                            <div class="field"><label for="q_12_b"><input type="radio" name="form[q_12]" id="q_12_b" value="Non"/></label> Non</div>
+                        </div>
+                        <div class="col col2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col col1"></div>
+                        <div class="col col3">
+                            <h4>Q12b. (si oui) Lequel ?</h4>
+                            <div class="field"><label for="q_12_1_a"><input type="radio" name="form[q_12_1]" id="q_12_1_a" value="Self-service Le Tropical"/> Self-service Le Tropical</label></div>
+                            <div class="field"><label for="q_12_1_b"><input type="radio" name="form[q_12_1]" id="q_12_1_b" value="Crêperie La Roseraie"/> Crêperie La Roseraie</label></div>
+                            <div class="field"><label for="q_12_1_c"><input type="radio" name="form[q_12_1]" id="q_12_1_c" value="L'Eucalyptus"/> L'Eucalyptus</label></div>
+                            <div class="field"><label for="q_12_1_d"><input type="radio" name="form[q_12_1]" id="q_12_1_d" value="Les Lamentins"/> Les Lamentins</label></div>
+                            <div class="field"><label for="q_12_1_e"><input type="radio" name="form[q_12_1]" id="q_12_1_e" value="Les Chats-pêcheurs"/> Les Chats-pêcheurs</label></div>
+                            <div class="field"><label for="q_12_1_f"><input type="radio" name="form[q_12_1]" id="q_12_1_f" value="La Savane"/> La Savane</label></div>
+                            <div class="field"><label for="q_12_1_g"><input type="radio" name="form[q_12_1]" id="q_12_1_g" value="Les Orangs-outans"/> Les Orangs-outans</label></div>
+                            <div class="field"><label for="q_12_1_h"><input type="radio" name="form[q_12_1]" id="q_12_1_h" value="La Pagode"/> La Pagode</label></div>
+                            <div class="field"><label for="q_12_1_i"><input type="radio" name="form[q_12_1]" id="q_12_1_i" value="Un chalet"/> Un chalet</label></div>
+                        </div>
+                        <div class="col col2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col col1"></div>
+                        <div class="col col3">
+                            <h4>Q12c. Concernant la qualité de la restauration, êtes-vous :</h4>
+                            <div class="field"><label for="q_12_2_a"><input type="radio" name="form[q_12_2]" id="q_12_2_a" value="Très satisfait(e)"/> Très satisfait(e)</label></div>
+                            <div class="field"><label for="q_12_2_b"><input type="radio" name="form[q_12_2]" id="q_12_2_b" value="Satisfait(e)"/> Satisfait(e)</label></div>
+                            <div class="field"><label for="q_12_2_c"><input type="radio" name="form[q_12_2]" id="q_12_2_c" value="Peu satisfait(e)"/> Peu satisfait(e)</label></div>
+                            <div class="field"><label for="q_12_2_d"><input type="radio" name="form[q_12_2]" id="q_12_2_d" value="Pas du tout satisfait(e)"/> Pas du tout satisfait(e)</label></div>
+                        </div>
+                        <div class="col col2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col col4"></div>
+                        <div class="col col2 text-right">
+                            <button class="prevBtn"><i class="fa fa-hand-o-up"></i></button>
+                            <button class="nextBtn"><i class="fa fa-hand-o-down"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ####                          Question 13                                                      #### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
 
+            <div class="question">
+                <div class="head">
+                    <h2>Q13. Remarques et suggestions</h2>
+                </div>
+                <div class="body">
+                    <div class="row">
+                        <div class="col col1"></div>
+                        <div class="col col4">
+                            <textarea name="form[q_13]" id="q_13"></textarea>
+                        </div>
+                        <div class="col col1"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col col4"></div>
+                        <div class="col col2 text-right">
+                            <button class="prevBtn"><i class="fa fa-hand-o-up"></i></button>
+                            <button class="nextBtn"><i class="fa fa-hand-o-down"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ####                          Question 14a 14b                                                 #### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <div class="question">
+                <div class="head">
+                    <h2>Q14a et Q14b. Aimeriez-vous recevoire 2 ou 3 fois par an des informations sur le ZooParc de
+                        Beauval (nouveautés, offres promotionnelles...) ?</h2>
+                </div>
+                <div class="body">
+                    <div class="row">
+                        <div class="col col1"></div>
+                        <div class="col col3">
+                            <label for="q_14_a"><input type="radio" name="form[q_14]" id="q_14_a" value="oui"/> Oui</label>
+                            <label for="q_14_b"><input type="radio" name="form[q_14]" id="q_14_b" value="non"/> Non</label>
+                        </div>
+                        <div class="col col2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col col1"></div>
+                        <div class="col col3">
+                            <h4>Q14b. Et sur l'hôtel Les Jardins de Beauval ?</h4>
+                            <label for="q_14_1_a"><input type="radio" name="form[q_14_1]" id="q_14_1_a" value="oui"/> Oui</label>
+                            <label for="q_14_1_b"><input type="radio" name="form[q_14_1]" id="q_14_1_b" value="non"/> Non</label>
+                        </div>
+                        <div class="col col2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col col4"></div>
+                        <div class="col col2 text-right">
+                            <button class="prevBtn"><i class="fa fa-hand-o-up"></i></button>
+                            <button class="nextBtn"><i class="fa fa-hand-o-down"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ####                          Question civilités                                               #### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
 
-
-
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ####                          validation                                                       #### -->
+            <!-- ####                                                                                           #### -->
+            <!-- ################################################################################################### -->
+            <!-- ################################################################################################### -->
 
         </div>
     </div>
