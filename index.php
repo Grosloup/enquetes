@@ -39,7 +39,7 @@ include_once ROOT . DS . "templates/header.php";
                         <div class="col col2"></div>
                         <div class="col col2">
                             <div class="field">
-                                <input type="text"/>
+                                <input type="text" placeholder="JJ/MM" name="form[q_1]" maxlength="5"/>
                             </div>
                         </div>
                         <div class="col col2"></div>
@@ -391,7 +391,7 @@ include_once ROOT . DS . "templates/header.php";
                         <div class="col col3">
                             <h4>Q7b. Combien de semaines à l’avance ?</h4>
                             <div class="field">
-                                <input type="text" name="form[q_7_1]" id="q_7_1" value=""/>
+                                <input type="text" name="form[q_7_1]" id="q_7_1" value="" placeholder="1" maxlength="2"/>
                             </div>
                         </div>
                         <div class="col col2"></div>
@@ -873,8 +873,12 @@ include_once ROOT . DS . "templates/header.php";
                     <div class="row">
                         <div class="col col1"></div>
                         <div class="col col3">
-                            <label for="q_14_a"><input type="radio" name="form[q_14]" id="q_14_a" value="oui"/> Oui</label>
-                            <label for="q_14_b"><input type="radio" name="form[q_14]" id="q_14_b" value="non"/> Non</label>
+                            <div class="field">
+                                <label for="q_14_a"><input type="radio" name="form[q_14]" id="q_14_a" value="oui"/> Oui</label>
+                            </div>
+                            <div class="field">
+                                <label for="q_14_b"><input type="radio" name="form[q_14]" id="q_14_b" value="non"/> Non</label>
+                            </div>
                         </div>
                         <div class="col col2"></div>
                     </div>
@@ -882,8 +886,12 @@ include_once ROOT . DS . "templates/header.php";
                         <div class="col col1"></div>
                         <div class="col col3">
                             <h4>Q14b. Et sur l'hôtel Les Jardins de Beauval ?</h4>
-                            <label for="q_14_1_a"><input type="radio" name="form[q_14_1]" id="q_14_1_a" value="oui"/> Oui</label>
-                            <label for="q_14_1_b"><input type="radio" name="form[q_14_1]" id="q_14_1_b" value="non"/> Non</label>
+                            <div class="field">
+                                <label for="q_14_1_a"><input type="radio" name="form[q_14_1]" id="q_14_1_a" value="oui"/> Oui</label>
+                            </div>
+                            <div class="field">
+                                <label for="q_14_1_b"><input type="radio" name="form[q_14_1]" id="q_14_1_b" value="non"/> Non</label>
+                            </div>
                         </div>
                         <div class="col col2"></div>
                     </div>
@@ -903,6 +911,32 @@ include_once ROOT . DS . "templates/header.php";
             <!-- ####                                                                                           #### -->
             <!-- ################################################################################################### -->
             <!-- ################################################################################################### -->
+            <div class="question">
+                <div class="head">
+                    <h2>Civilités <span class="arrow"><i class="fa fa-chevron-circle-up"></i></span></h2>
+                </div>
+                <div class="body">
+                    <div class="row">
+                        <div class="col col1"></div>
+                        <div class="col col4">
+                            <div class="field">
+                                <label for="q_15_1_a"><input type="radio" name="form[q_15_1]" value="Mme, Mlle" id="q_15_1_a"/> Mme, Mlle</label>
+                                <label for="q_15_1_b"><input type="radio" name="form[q_15_1]" value="Mr" id="q_15_1_b" /> Mr</label>
+                            </div>
+                            <div class="field">
+                                <label for="nom">Nom</label><input type="text" name="form[q_15_2]" id="nom"/>
+                            </div>
+                            <div class="field">
+                                <label for="prenom">Prenom</label><input type="text" name="form[q_15_3]" id="prenom"/>
+                            </div>
+                            <div class="field">
+                                <label for="email">Email</label><input type="text" name="form[q_15_4]" id="email"/>
+                            </div>
+                        </div>
+                        <div class="col col1"></div>
+                    </div>
+                </div>
+            </div>
 
             <!-- ################################################################################################### -->
             <!-- ################################################################################################### -->
@@ -911,7 +945,23 @@ include_once ROOT . DS . "templates/header.php";
             <!-- ####                                                                                           #### -->
             <!-- ################################################################################################### -->
             <!-- ################################################################################################### -->
-
+            <div class="question">
+                <div class="head">
+                    <h2>Validation <span class="arrow"><i class="fa fa-chevron-circle-up"></i></span></h2>
+                </div>
+                <div class="body">
+                    <div class="row">
+                        <div class="col col1"></div>
+                        <div class="col col2 text-center">
+                            <button type="submit" class="btn">Enregistrer</button>
+                        </div>
+                        <div class="col col2 text-center">
+                            <button type="reset" class="btn">Annuler</button>
+                        </div>
+                        <div class="col col1"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

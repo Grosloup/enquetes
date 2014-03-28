@@ -39,14 +39,8 @@
         this.$head.on("click", function(e){
             e.preventDefault();
             if(self.$el.hasClass("opened")){
-                /*self.$el.removeClass("opened").addClass("closed");
-                self.$body.slideUp(200);*/
                 self.close();
             } else {
-                /*self.$questions.removeClass("opened").addClass("closed");
-                self.$bodies.slideUp(200);
-                self.$el.removeClass("closed").addClass("opened");
-                self.$body.slideDown(200);*/
                 self.open();
             }
         });
