@@ -484,14 +484,46 @@ include_once ROOT . DS . "templates/header.php";
                                     <div class="field">
                                         <label for="q_9_1_a"><input type="checkbox" name="form[q_9_1][]" id="q_9_1_a" value="Grandes affiches"/> Grandes affiches</label>
                                     </div>
+                                    <div class="row">
+                                        <div class="col col1"></div>
+                                        <div class="col col5">
+                                            <h4>Où était-ce ?</h4>
+                                            <div class="field"><label for="q_9_1_1_a"><input type="checkbox" name="form[q_9_1_1][]" id="q_9_1_1_a" value="Paris/Banlieue"/> Paris/Banlieue</label></div>
+                                            <div class="field"><label for="q_9_1_1_b"><input type="checkbox" name="form[q_9_1_1][]" id="q_9_1_1_b" value="Province"/> Province</label></div>
+                                        </div>
+                                    </div>
                                     <div class="field">
                                         <label for="q_9_1_b"><input type="checkbox" name="form[q_9_1][]" id="q_9_1_b" value="Affiches sur les portes des magasins"/> Affiches sur les portes des magasins</label>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col col1"></div>
+                                        <div class="col col5">
+                                            <h4>Où était-ce ?</h4>
+                                            <div class="field"><label for="q_9_1_2_a"><input type="checkbox" name="form[q_9_1_2][]" id="q_9_1_2_a" value="Paris/Banlieue"/> Paris/Banlieue</label></div>
+                                            <div class="field"><label for="q_9_1_2_b"><input type="checkbox" name="form[q_9_1_2][]" id="q_9_1_2_b" value="Province"/> Province</label></div>
+                                        </div>
                                     </div>
                                     <div class="field">
                                         <label for="q_9_1_c"><input type="checkbox" name="form[q_9_1][]" id="q_9_1_c" value="Affiches sur les arrières de bus"/> Affiches sur les arrières de bus</label>
                                     </div>
+                                    <div class="row">
+                                        <div class="col col1"></div>
+                                        <div class="col col5">
+                                            <h4>Où était-ce ?</h4>
+                                            <div class="field"><label for="q_9_1_3_a"><input type="checkbox" name="form[q_9_1_3][]" id="q_9_1_3_a" value="Paris/Banlieue"/> Paris/Banlieue</label></div>
+                                            <div class="field"><label for="q_9_1_3_b"><input type="checkbox" name="form[q_9_1_3][]" id="q_9_1_3_b" value="Province"/> Province</label></div>
+                                        </div>
+                                    </div>
                                     <div class="field">
                                         <label for="q_9_1_d"><input type="checkbox" name="form[q_9_1][]" id="q_9_1_d" value="Dans les centres commerciaux"/> Dans les centres commerciaux</label>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col col1"></div>
+                                        <div class="col col5">
+                                            <h4>Où était-ce ?</h4>
+                                            <div class="field"><label for="q_9_1_4_a"><input type="checkbox" name="form[q_9_1_4][]" id="q_9_1_4_a" value="Paris/Banlieue"/> Paris/Banlieue</label></div>
+                                            <div class="field"><label for="q_9_1_4_b"><input type="checkbox" name="form[q_9_1_4][]" id="q_9_1_4_b" value="Province"/> Province</label></div>
+                                        </div>
                                     </div>
                                     <div class="field">
                                         <label for="q_9_1_e"><input type="checkbox" name="form[q_9_1][]" id="q_9_1_e" value="Affichages animés (vidéo) dans les centres commerciaux de la région parisienne"/> Affichages animés (vidéo) dans les centres commerciaux de la région parisienne</label>
@@ -576,6 +608,21 @@ include_once ROOT . DS . "templates/header.php";
                                 <div class="col col5">
                                     <h4>Où avez-vous vu/obtenu ce(s) prospectus</h4>
 
+                                    <div class="field">
+                                        <label for="q_9_4_a"><input type="checkbox" name="form[q_9_4]" id="q_9_4_a" value="Dans un hôtel, un restaurant, un Office de tourisme"/> Dans un hôtel, un restaurant, un Office de tourisme</label>
+                                    </div>
+                                    <div class="field">
+                                        <label for="q_9_4_b"><input type="checkbox" name="form[q_9_4]" id="q_9_4_b" value="Dans une station-service/un resturant d'autoroute"/> Dans une station-service/un resturant d'autoroute</label>
+                                    </div>
+                                    <div class="field">
+                                        <label for="q_9_4_c"><input type="checkbox" name="form[q_9_4]" id="q_9_4_c" value="un super/hypermarché"/> un super/hypermarché</label>
+                                    </div>
+                                    <div class="field">
+                                        <label for="q_9_4_d"><input type="checkbox" name="form[q_9_4]" id="q_9_4_d" value="Dans votre boîte aux lettres"/> Dans votre boîte aux lettres</label>
+                                    </div>
+                                    <div class="field">
+                                        <label for="q_9_4_e"><input type="checkbox" name="form[q_9_4]" id="q_9_4_e" value="Sur le part-brise de votre voiture"/> Sur le part-brise de votre voiture</label>
+                                    </div>
 
                                 </div>
                             </div>
