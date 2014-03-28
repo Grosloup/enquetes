@@ -8,5 +8,5 @@
 if(!empty($_POST)  && isset($_POST["form"])){
 
 
-    var_dump($_POST["form"]);die();
+
 }

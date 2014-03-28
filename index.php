@@ -310,7 +310,7 @@ include_once ROOT . DS . "templates/header.php";
                                     <label for="q_6_1_a"><input type="radio" name="form[q_6_1]" id="q_6_1_a" value="2 fois"/> 2 fois</label>
                                 </div>
                                 <div class="field">
-                                    <label for="q_6_1_b"><input type="radio" name="form[q_6_1]" id="q_6_1_b" value="3 fois"/> 3 fois"</label>
+                                    <label for="q_6_1_b"><input type="radio" name="form[q_6_1]" id="q_6_1_b" value="3 fois"/> 3 fois</label>
                                 </div>
                                 <div class="field">
                                     <label for="q_6_1_c"><input type="radio" name="form[q_6_1]" id="q_6_1_c" value="4 fois"/> 4 fois</label>
@@ -459,7 +459,7 @@ include_once ROOT . DS . "templates/header.php";
                         <div class="row">
                             <div class="col col5">
                                 <div class="field">
-                                    <label for="q_9_a"><input type="checkbox" name="[q_9][]" id="q_9_a" value="Bouche à oreille (famille, amis, etc)"/> Bouche à oreille (famille, amis, etc)</label>
+                                    <label for="q_9_a"><input type="checkbox" name="form[q_9][]" id="q_9_a" value="Bouche à oreille (famille, amis, etc)"/> Bouche à oreille (famille, amis, etc)</label>
                                 </div>
                             </div>
                             <div class="col col1"></div>
@@ -467,7 +467,7 @@ include_once ROOT . DS . "templates/header.php";
                         <div class="row">
                             <div class="col col5">
                                 <div class="field">
-                                    <label for="q_9_b"><input type="checkbox" name="[q_9][]" id="q_9_b" value="Affichage publicitaire"/> Affichage publicitaire</label>
+                                    <label for="q_9_b"><input type="checkbox" name="form[q_9][]" id="q_9_b" value="Affichage publicitaire"/> Affichage publicitaire</label>
                                 </div>
                                 <div class="row">
                                     <div class="col col1"></div>
@@ -541,7 +541,7 @@ include_once ROOT . DS . "templates/header.php";
                         <div class="row">
                             <div class="col col5">
                                 <div class="field">
-                                    <label for="q_9_c"><input type="checkbox" name="[q_9][]" id="q_9_c" value="Publicité dans les médias"/> Publicité dans les médias</label>
+                                    <label for="q_9_c"><input type="checkbox" name="form[q_9][]" id="q_9_c" value="Publicité dans les médias"/> Publicité dans les médias</label>
                                 </div>
                                 <div class="row">
                                     <div class="col col1"></div>
@@ -567,7 +567,7 @@ include_once ROOT . DS . "templates/header.php";
                         <div class="row">
                             <div class="col col5">
                                 <div class="field">
-                                    <label for="q_9_d"><input type="checkbox" name="[q_9][]" id="q_9_d" value="Articles/émissions dans les médias"/> Articles/émissions dans les médias</label>
+                                    <label for="q_9_d"><input type="checkbox" name="form[q_9][]" id="q_9_d" value="Articles/émissions dans les médias"/> Articles/émissions dans les médias</label>
                                 </div>
                                 <div class="row">
                                     <div class="col col1"></div>
@@ -590,26 +590,26 @@ include_once ROOT . DS . "templates/header.php";
                         <div class="row">
                             <div class="col col5">
                                 <div class="field">
-                                    <label for="q_9_e"><input type="checkbox" name="[q_9][]" id="q_9_e" value="Prospectus"/> Prospectus</label>
+                                    <label for="q_9_e"><input type="checkbox" name="form[q_9][]" id="q_9_e" value="Prospectus"/> Prospectus</label>
                                 </div>
                                 <div class="row">
                                     <div class="col col1"></div>
                                     <div class="col col5">
                                         <h4>Où avez-vous vu/obtenu ce(s) prospectus</h4>
                                         <div class="field">
-                                            <label for="q_9_4_a"><input type="checkbox" name="form[q_9_4]" id="q_9_4_a" value="Dans un hôtel, un restaurant, un Office de tourisme"/> Dans un hôtel, un restaurant, un Office de tourisme</label>
+                                            <label for="q_9_4_a"><input type="checkbox" name="form[q_9_4][]" id="q_9_4_a" value="Dans un hôtel, un restaurant, un Office de tourisme"/> Dans un hôtel, un restaurant, un Office de tourisme</label>
                                         </div>
                                         <div class="field">
-                                            <label for="q_9_4_b"><input type="checkbox" name="form[q_9_4]" id="q_9_4_b" value="Dans une station-service/un resturant d'autoroute"/> Dans une station-service/un resturant d'autoroute</label>
+                                            <label for="q_9_4_b"><input type="checkbox" name="form[q_9_4][]" id="q_9_4_b" value="Dans une station-service/un resturant d'autoroute"/> Dans une station-service/un resturant d'autoroute</label>
                                         </div>
                                         <div class="field">
-                                            <label for="q_9_4_c"><input type="checkbox" name="form[q_9_4]" id="q_9_4_c" value="un super/hypermarché"/> un super/hypermarché</label>
+                                            <label for="q_9_4_c"><input type="checkbox" name="form[q_9_4][]" id="q_9_4_c" value="un super/hypermarché"/> un super/hypermarché</label>
                                         </div>
                                         <div class="field">
-                                            <label for="q_9_4_d"><input type="checkbox" name="form[q_9_4]" id="q_9_4_d" value="Dans votre boîte aux lettres"/> Dans votre boîte aux lettres</label>
+                                            <label for="q_9_4_d"><input type="checkbox" name="form[q_9_4][]" id="q_9_4_d" value="Dans votre boîte aux lettres"/> Dans votre boîte aux lettres</label>
                                         </div>
                                         <div class="field">
-                                            <label for="q_9_4_e"><input type="checkbox" name="form[q_9_4]" id="q_9_4_e" value="Sur le part-brise de votre voiture"/> Sur le part-brise de votre voiture</label>
+                                            <label for="q_9_4_e"><input type="checkbox" name="form[q_9_4][]" id="q_9_4_e" value="Sur le part-brise de votre voiture"/> Sur le part-brise de votre voiture</label>
                                         </div>
                                     </div>
                                 </div>
@@ -619,7 +619,7 @@ include_once ROOT . DS . "templates/header.php";
                         <div class="row">
                             <div class="col col5">
                                 <div class="field">
-                                    <label for="q_9_f"><input type="checkbox" name="[q_9][]" id="q_9_f" value="Promotion dans un supermarché"/> Promotion dans un supermarché</label>
+                                    <label for="q_9_f"><input type="checkbox" name="form[q_9][]" id="q_9_f" value="Promotion dans un supermarché"/> Promotion dans un supermarché</label>
                                 </div>
                             </div>
                             <div class="col col1"></div>
@@ -627,7 +627,7 @@ include_once ROOT . DS . "templates/header.php";
                         <div class="row">
                             <div class="col col5">
                                 <div class="field">
-                                    <label for="q_9_g"><input type="checkbox" name="[q_9][]" id="q_9_g" value="Ecole de votre enfant"/> Ecole de votre enfant</label>
+                                    <label for="q_9_g"><input type="checkbox" name="form[q_9][]" id="q_9_g" value="Ecole de votre enfant"/> Ecole de votre enfant</label>
                                 </div>
                             </div>
                             <div class="col col1"></div>
@@ -635,7 +635,7 @@ include_once ROOT . DS . "templates/header.php";
                         <div class="row">
                             <div class="col col5">
                                 <div class="field">
-                                    <label for="q_9_h"><input type="checkbox" name="[q_9][]" id="q_9_h" value="Affichage/billets dans votre entreprise (CE)"/> Affichage/billets dans votre entreprise (CE)</label>
+                                    <label for="q_9_h"><input type="checkbox" name="form[q_9][]" id="q_9_h" value="Affichage/billets dans votre entreprise (CE)"/> Affichage/billets dans votre entreprise (CE)</label>
                                 </div>
                             </div>
                             <div class="col col1"></div>
@@ -643,7 +643,7 @@ include_once ROOT . DS . "templates/header.php";
                         <div class="row">
                             <div class="col col5">
                                 <div class="field">
-                                    <label for="q_9_i"><input type="checkbox" name="[q_9][]" id="q_9_i" value="Guides touristiques"/> Guides touristiques</label>
+                                    <label for="q_9_i"><input type="checkbox" name="form[q_9][]" id="q_9_i" value="Guides touristiques"/> Guides touristiques</label>
                                 </div>
                             </div>
                             <div class="col col1"></div>
@@ -651,7 +651,7 @@ include_once ROOT . DS . "templates/header.php";
                         <div class="row">
                             <div class="col col5">
                                 <div class="field">
-                                    <label for="q_9_j"><input type="checkbox" name="[q_9][]" id="q_9_j" value="Site web du ZooParc de Beauval"/> Site web du ZooParc de Beauval</label>
+                                    <label for="q_9_j"><input type="checkbox" name="form[q_9][]" id="q_9_j" value="Site web du ZooParc de Beauval"/> Site web du ZooParc de Beauval</label>
                                 </div>
                             </div>
                             <div class="col col1"></div>
@@ -659,7 +659,7 @@ include_once ROOT . DS . "templates/header.php";
                         <div class="row">
                             <div class="col col5">
                                 <div class="field">
-                                    <label for="q_9_k"><input type="checkbox" name="[q_9][]" id="q_9_k" value="Publicité sur un site internet"/> Publicité sur un site internet</label>
+                                    <label for="q_9_k"><input type="checkbox" name="form[q_9][]" id="q_9_k" value="Publicité sur un site internet"/> Publicité sur un site internet</label>
                                 </div>
                             </div>
                             <div class="col col1"></div>
@@ -689,8 +689,8 @@ include_once ROOT . DS . "templates/header.php";
                             <div class="col col1"></div>
                             <div class="col col3">
                                 <h4>Vous êtes-vous connecté à notre site www.zoobeauval.com ?</h4>
-                                <label for="q_10_a"><input type="radio" name="form[q_10]" id="q_10_a" value="oui"/> Oui</label>
-                                <label for="q_10_b"><input type="radio" name="form[q_10]" id="q_10_b" value="non"/> Non</label>
+                                <div class="field"><label for="q_10_a"><input type="radio" name="form[q_10]" id="q_10_a" value="oui"/> Oui</label></div>
+                                <div class="field"><label for="q_10_b"><input type="radio" name="form[q_10]" id="q_10_b" value="non"/> Non</label></div>
                             </div>
                             <div class="col col2"></div>
                         </div>
@@ -698,8 +698,8 @@ include_once ROOT . DS . "templates/header.php";
                             <div class="col col1"></div>
                             <div class="col col3">
                                 <h4>Avez-vous téléphoné au ZooParc de Beauval pour obtenir des renseignements ?</h4>
-                                <label for="q_10_1_a"><input type="radio" name="form[q_10_1]" id="q_10_1_a" value="oui"/> Oui</label>
-                                <label for="q_10_1_b"><input type="radio" name="form[q_10_1]" id="q_10_1_b" value="non"/> Non</label>
+                                <div class="field"><label for="q_10_1_a"><input type="radio" name="form[q_10_1]" id="q_10_1_a" value="oui"/> Oui</label></div>
+                                <div class="field"><label for="q_10_1_b"><input type="radio" name="form[q_10_1]" id="q_10_1_b" value="non"/> Non</label></div>
                             </div>
                             <div class="col col2"></div>
                         </div>
