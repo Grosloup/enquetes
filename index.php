@@ -481,6 +481,33 @@ include_once ROOT . DS . "templates/header.php";
                                 <div class="col col5">
                                     <h4>Quel types d'affichages ?</h4>
 
+                                    <div class="field">
+                                        <label for="q_9_1_a"><input type="checkbox" name="form[q_9_1][]" id="q_9_1_a" value="Grandes affiches"/> Grandes affiches</label>
+                                    </div>
+                                    <div class="field">
+                                        <label for="q_9_1_b"><input type="checkbox" name="form[q_9_1][]" id="q_9_1_b" value="Affiches sur les portes des magasins"/> Affiches sur les portes des magasins</label>
+                                    </div>
+                                    <div class="field">
+                                        <label for="q_9_1_c"><input type="checkbox" name="form[q_9_1][]" id="q_9_1_c" value="Affiches sur les arrières de bus"/> Affiches sur les arrières de bus</label>
+                                    </div>
+                                    <div class="field">
+                                        <label for="q_9_1_d"><input type="checkbox" name="form[q_9_1][]" id="q_9_1_d" value="Dans les centres commerciaux"/> Dans les centres commerciaux</label>
+                                    </div>
+                                    <div class="field">
+                                        <label for="q_9_1_e"><input type="checkbox" name="form[q_9_1][]" id="q_9_1_e" value="Affichages animés (vidéo) dans les centres commerciaux de la région parisienne"/> Affichages animés (vidéo) dans les centres commerciaux de la région parisienne</label>
+                                    </div>
+                                    <div class="field">
+                                        <label for="q_9_1_f"><input type="checkbox" name="form[q_9_1][]" id="q_9_1_f" value="Affichage dans le metro parisien"/> Affichage dans le metro parisien</label>
+                                    </div>
+                                    <div class="field">
+                                        <label for="q_9_1_g"><input type="checkbox" name="form[q_9_1][]" id="q_9_1_g" value="Affichage sur le périphérique parisien"/> Affichage sur le périphérique parisien</label>
+                                    </div>
+                                    <div class="field">
+                                        <label for="q_9_1_h"><input type="checkbox" name="form[q_9_1][]" id="q_9_1_h" value="Affichage sur les quais de RER/trains de banlieue"/> Affichage sur les quais de RER/trains de banlieue</label>
+                                    </div>
+                                    <div class="field">
+                                        <label for="q_9_1_i"><input type="checkbox" name="form[q_9_1][]" id="q_9_1_i" value="Bus entièrement recouvert à l'éffigie du ZooParc de Beauval en province"/> Bus entièrement recouvert à l'éffigie du ZooParc de Beauval en province</label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -497,6 +524,18 @@ include_once ROOT . DS . "templates/header.php";
                                 <div class="col col5">
                                     <h4>Quel type de média ?</h4>
 
+                                    <div class="field">
+                                        <label for="q_9_2_a"><input type="checkbox" name="form[q_9_2][]" id="q_9_2_a" value="Publicité à la télévision"/> Publicité à la télévision</label>
+                                    </div>
+                                    <div class="field">
+                                        <label for="q_9_2_b"><input type="checkbox" name="form[q_9_2][]" id="q_9_2_b" value="Lancement météo à la télévision"/> Lancement météo à la télévision</label>
+                                    </div>
+                                    <div class="field">
+                                        <label for="q_9_2_c"><input type="checkbox" name="form[q_9_2][]" id="q_9_2_c" value="Jeu, publicité à la radio"/> Jeu, publicité à la radio</label>
+                                    </div>
+                                    <div class="field">
+                                        <label for="q_9_2_d"><input type="checkbox" name="form[q_9_2][]" id="q_9_2_d" value="Publicité dans la presse écrite, un guide touristique"/> Publicité dans la presse écrite, un guide touristique</label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -512,7 +551,15 @@ include_once ROOT . DS . "templates/header.php";
                                 <div class="col col1"></div>
                                 <div class="col col5">
                                     <h4>Merci de préciser</h4>
-
+                                    <div class="field">
+                                        <label for="q_9_3_a"><input type="checkbox" name="form[q_9_3][]" id="q_9_3_a" value="Emission de télévision"/> Emission de télévision</label>
+                                    </div>
+                                    <div class="field">
+                                        <label for="q_9_3_b"><input type="checkbox" name="form[q_9_3][]" id="q_9_3_b" value="Emission de radio"/> Emission de radio</label>
+                                    </div>
+                                    <div class="field">
+                                        <label for="q_9_3_c"><input type="checkbox" name="form[q_9_3][]" id="q_9_3_c" value="Article dans la presse écrite (journal, magazine...)"/> Article dans la presse écrite (journal, magazine...)</label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -528,6 +575,7 @@ include_once ROOT . DS . "templates/header.php";
                                 <div class="col col1"></div>
                                 <div class="col col5">
                                     <h4>Où avez-vous vu/obtenu ce(s) prospectus</h4>
+
 
                                 </div>
                             </div>
@@ -607,7 +655,7 @@ include_once ROOT . DS . "templates/header.php";
             <!-- ################################################################################################### -->
             <div class="question">
                 <div class="head">
-                    <h2>Q10. Avant de venir au ZooParc de Beauval: </h2>
+                    <h2>Q10. Avant de venir au ZooParc de Beauval: <span class="arrow"><i class="fa fa-chevron-circle-up"></i></span> </h2>
                 </div>
                 <div class="body">
                     <div class="row">
@@ -646,7 +694,7 @@ include_once ROOT . DS . "templates/header.php";
             <!-- ################################################################################################### -->
             <div class="question">
                 <div class="head">
-                    <h2>Q11. Globalement, en ce qui concerne la visite du ZooParc de Beauval, diriez-vous que vous avez :</h2>
+                    <h2>Q11. Globalement, en ce qui concerne la visite du ZooParc de Beauval, diriez-vous que vous avez : <span class="arrow"><i class="fa fa-chevron-circle-up"></i></span></h2>
                 </div>
                 <div class="body">
                     <div class="row">
@@ -685,7 +733,7 @@ include_once ROOT . DS . "templates/header.php";
             <!-- ################################################################################################### -->
             <div class="question">
                 <div class="head">
-                    <h2>Q12a Q12b q12c. Vous êtes-vous arrêté dans un point de restauration ?</h2>
+                    <h2>Q12a Q12b q12c. Vous êtes-vous arrêté dans un point de restauration ? <span class="arrow"><i class="fa fa-chevron-circle-up"></i></span></h2>
                 </div>
                 <div class="body">
                     <div class="row">
@@ -743,7 +791,7 @@ include_once ROOT . DS . "templates/header.php";
 
             <div class="question">
                 <div class="head">
-                    <h2>Q13. Remarques et suggestions</h2>
+                    <h2>Q13. Remarques et suggestions <span class="arrow"><i class="fa fa-chevron-circle-up"></i></span></h2>
                 </div>
                 <div class="body">
                     <div class="row">
@@ -772,7 +820,7 @@ include_once ROOT . DS . "templates/header.php";
             <div class="question">
                 <div class="head">
                     <h2>Q14a et Q14b. Aimeriez-vous recevoire 2 ou 3 fois par an des informations sur le ZooParc de
-                        Beauval (nouveautés, offres promotionnelles...) ?</h2>
+                        Beauval (nouveautés, offres promotionnelles...) ? <span class="arrow"><i class="fa fa-chevron-circle-up"></i></span></h2>
                 </div>
                 <div class="body">
                     <div class="row">
