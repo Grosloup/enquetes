@@ -13,10 +13,11 @@
         this.$bodies = bodies;
         this.$nextBtn = $(".nextBtn", this.$el);
         this.$prevBtn = $(".prevBtn", this.$el);
-        if(this.idx != this.$questions.length){
+        if(this.idx != this.$questions.length-1){
             this.$nextQuestion = $(this.$questions[this.idx+1]);
         } else {
             this.$nextQuestion = null;
+            this.$nextBtn.addClass("disabled").attr("disabled", "disabled");
         }
         if(this.idx != 0){
             this.$prevQuestion = $(this.$questions[this.idx-1]);

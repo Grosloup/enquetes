@@ -913,6 +913,13 @@ include_once ROOT . DS . "templates/header.php";
                             </div>
                             <div class="col col1"></div>
                         </div>
+                        <div class="row">
+                            <div class="col col4"></div>
+                            <div class="col col2 text-right">
+                                <button class="prevBtn"><i class="fa fa-hand-o-up"></i></button>
+                                <button class="nextBtn"><i class="fa fa-hand-o-down"></i></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- ################################################################################################### -->
@@ -936,6 +943,13 @@ include_once ROOT . DS . "templates/header.php";
                                 <button type="reset" class="btn">Annuler</button>
                             </div>
                             <div class="col col1"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col col4"></div>
+                            <div class="col col2 text-right">
+                                <button class="prevBtn"><i class="fa fa-hand-o-up"></i></button>
+                                <button class="nextBtn"><i class="fa fa-hand-o-down"></i></button>
+                            </div>
                         </div>
                     </div>
                 </div>
